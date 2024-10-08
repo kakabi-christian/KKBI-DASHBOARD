@@ -1,0 +1,347 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+   padding-left: 0;
+   padding-top:0;
+   margin-left: 0%;
+     
+}
+.image img
+{
+    height: 40px;
+    filter: grayscale(1);
+    border-radius: 100%;
+}
+.nav1
+{
+    display: flex;
+    gap: 30px;
+}
+.nav:hover
+{
+    border-radius: 10px;
+    border: 2px white solid;
+    height: 50px;
+    text-align: center;
+    transition: 0.5s ease-in;
+    padding-left: 20px;
+    width: 220px;
+    padding-top: 10px;
+    cursor: pointer;
+    background-color: gold;
+}
+.overview
+{
+    padding-top: 10px;
+}
+.name
+{
+    font-weight: bold;
+     text-transform:capitalize;
+     color: white;
+     padding-top: 10px;
+}
+.finance
+{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+
+}
+.firstpart
+{
+    background-color: black;
+    padding-left: 15px;
+    width: 350px;
+    height: 747px;
+    border-top-right-radius: 5px;
+    /* box-shadow: 5px 2px 5px 1px green; */
+}
+.head
+{
+  display: flex;
+}
+.secondpart
+{
+  background-color:rgb(83, 105, 105);
+  width: 1150px;
+  height: 745px;
+  border: 2px black solid;
+  padding-left: 20px;
+}
+.over
+{
+ margin-top: 2%;
+ padding-left: 20px;
+ font-weight: bold;
+ font-size: 25px;
+}
+.amount1
+{
+    padding-top: 15px;
+}
+.current,.amount1
+{
+    color: white;
+    font-size: 13px;
+}
+
+.amount1
+{
+    font-size: 25px;
+}
+.first-one
+{
+    border: 2px black solid;
+    width: 340px;
+    border-radius: 10PX;
+    padding-left: 15px;
+    height: 100px;
+    padding-top: 20px;
+    background-color: black;
+    margin-top: 2%;
+    
+}
+
+
+.first-one:hover
+{
+    transition: ease-in 4s;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+}
+.rectangle
+{
+    display: flex;
+    gap: 25px;
+}
+.see
+{
+    display: flex;
+    gap: 540px;
+    text-transform: capitalize;
+    border: 2px black solid;
+    height: 190px;
+    width: 710px;
+    border-radius: 10px;
+    padding-top: 25px;
+    
+}
+.see:hover
+{
+    background-color: green;
+    transition: 1.5s ease-in;
+    cursor: pointer;
+    color: white;
+}
+.pot
+{
+    margin-left: 2%;
+    font-weight: bold;
+}
+.detail
+{
+   
+    color: rgb(186, 184, 184);
+}
+.Total
+{
+    display: flex;
+    gap: 25px;
+    border: 2px white solid;
+    width: 230px;
+    height: 90px;
+    padding-top: 30px;
+    padding-left: 10px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.img img
+{
+    border-radius: 100%;
+    height: 45px;
+}
+.total
+{
+    margin-top: 5%;
+    display: flex;
+    gap: 120px;
+}
+.montant
+{
+    font-weight: bold;
+}
+.savings
+{
+  
+    color: rgb(186, 184, 184);
+}
+.pots
+{
+    display: flex;
+    gap: 5px;
+}
+.hello
+{
+    visibility: hidden;
+}
+
+.Head
+{
+    display: flex;
+    gap: 60px;
+}
+.bud img
+{
+    height: 190px;
+    border-radius: 100%;
+}
+.bills
+{
+   
+    color: rgb(186, 184, 184);
+}
+.budget
+{
+    border: 2px black solid;
+    padding-left: 15px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 15px;
+    background-color: white;
+    cursor: pointer;
+    height: 263px;
+ 
+}
+
+.budget:hover
+{
+    background-color: gold;
+    transition: ease-in 1.8s;
+
+}
+
+.bud img
+{
+    filter: grayscale(1);
+}
+.bud img:hover
+{
+    filter: grayscale(0);
+    transform:scale(0.75);
+}
+.transaction
+{
+    display: flex;
+    gap: 500px;
+
+}
+.picture
+{
+    display: flex;
+    gap: 20px;
+}
+.view
+{
+    font-size: 12px;
+    color: rgb(186, 184, 184);
+}
+.picture img
+{
+  
+    height: 25px;
+    width: 35px;
+    margin-top: 50%;
+    border-radius: 100%;
+}
+.pic-name
+{
+    padding-top: 21px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.expenses
+{
+    margin-left: 38%;
+}
+.color
+{
+    color: rgb(209, 23, 23);
+}
+.date
+{
+    font-size: 12px;
+}
+hr
+{
+    opacity: 0.1;
+}
+.PICTURE:hover
+{
+  background-color: black;
+  border: 2px white solid;
+  width: 650px;
+  border-radius: 10px;
+  color: white;
+  padding-left: 10px;
+  cursor: pointer;
+  
+}
+.ALL-PICTURE
+{
+  border: 2px white solid;
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 680px;
+  padding-top: 10PX;
+}
+.ALL-PICTURE:hover
+{
+    border: none;
+}
+.ending
+{
+    margin-top: 2%;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.recure
+{
+    display: flex;
+    gap: 160px;
+    color: rgb(23, 23, 181);
+    
+}
+.paid
+{
+    display: flex;
+    gap: 200px;
+}
+.somme
+{
+    color: rgb(186, 184, 184); ;
+}
+.ending:hover
+{
+    border: none;
+}
+.paid:hover
+{
+  background-color: bisque;
+  border: 2px white solid;
+  width: 390px;
+  border-radius: 10px;
+  color: white;
+  padding-left: 10px;
+  cursor: pointer;
+  height: 35px;
+}
